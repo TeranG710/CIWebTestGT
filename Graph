@@ -1,0 +1,28 @@
+my-fork/
+├── .github/
+│   └── workflows/
+│       └── ci.yml            # GitHub Actions workflow to run tests and linters
+├── api/
+│   ├── src/
+│   │   ├── app.js            # Main Express app
+│   │   └── routes/
+│   │       └── search.js     # Search endpoint implementation
+│   ├── tests/
+│   │   └── search.test.js    # Unit tests for the search API
+│   ├── package.json          # API dependencies and scripts (e.g., test, lint)
+│   ├── .eslintrc.json        # Linter configuration for the API
+│   └── README.md             # API-specific documentation
+├── frontend/
+│   ├── public/
+│   │   └── index.html        # Entry point for the frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── SearchButton.js  # A search button component
+│   │   └── App.js            # Main application file
+│   ├── tests/
+│   │   └── App.test.js       # Unit tests for frontend components
+│   ├── package.json          # Frontend dependencies and scripts (e.g., test, lint)
+│   ├── .eslintrc.json        # Linter configuration for the frontend
+│   └── README.md             # Frontend-specific documentation
+└── README.md                 # Project overview and instructions
+
