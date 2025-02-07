@@ -1,4 +1,4 @@
-my-fork/
+My-Fork/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml            # GitHub Actions workflow to run tests and linters
